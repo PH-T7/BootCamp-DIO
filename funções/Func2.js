@@ -1,9 +1,8 @@
-let Colocar = 10000
 const Senha = 1000
 
-Main()
+Verf()
 
-function Verf(){
+function Verf(Colocar = 1000){
     if(Colocar === Senha){
 
        console.log("Verificado!")
@@ -11,9 +10,6 @@ function Verf(){
         else{
             console.log("Errado tente novamente!")
         }
+    return Senha
 }
 
-function Main(){
-   
-    Verf()
-}
